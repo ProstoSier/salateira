@@ -1,0 +1,179 @@
+.menuMain {
+  padding-bottom: 70px;
+}
+
+.menuDishesCategories {
+  margin-bottom: 30px;
+}
+
+.listDishesCategories {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.listDishesCategoriesItem {
+  display: block;
+  padding: 10px 20px;
+  border-radius: 18px;
+  background-color: #fff;
+  box-shadow: 1px 1px 10px rgb(202, 202, 202);
+  transition: all 0.3s ease 0s;
+}
+.listDishesCategoriesItem:hover {
+  box-shadow: 0px 0px 5px black;
+}
+
+.listDishesCategoriesItemLink {
+  color: black;
+}
+
+/*-------------------------------------------------*/
+.menuCards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: space-between;
+}
+
+.menuCard {
+  width: 100%;
+  height: 100%;
+  margin-top: 100px;
+  max-height: 180px;
+  padding: 15px;
+  flex: 0 1 33.3333%;
+  background-color: rgb(255, 255, 255);
+  justify-content: center;
+  transition: all 0.2s ease 0s;
+  border-radius: 15px;
+  color: black;
+  box-shadow: 0px 0px 20px rgb(192, 192, 192);
+}
+.menuCard:hover {
+  margin-top: 90px;
+}
+
+.menuCardImg {
+  width: 400px;
+  height: 200px;
+  margin-top: -100px;
+}
+
+.menuCardName {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.menuCardOther {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menuBtn {
+  background: none;
+}
+
+/*-------------------------------------------*/
+.popup {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.popupOverlay {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(105, 105, 105, 0.662745098);
+}
+
+.popupContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 14px 0px;
+  border-radius: 18px;
+  max-width: 600px;
+  min-width: 300px;
+  min-height: 600px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.popupContentImg {
+  width: 100%;
+  height: 100%;
+  max-width: 600px;
+  max-height: 300px;
+  margin-top: -70px;
+}
+
+.popupContentInfo {
+  text-align: start;
+  flex: 1 1 auto;
+  border-top: 1px solid rgba(0, 0, 0, 0.103);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.103);
+  padding: 15px;
+}
+
+.popupContentName {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.popupContentDescriptions {
+  margin-bottom: 15px;
+}
+
+.popupContentAdd {
+  padding: 10px 70px;
+  font-size: 18px;
+  border-radius: 8px;
+  color: #fff;
+  background-color: rgb(58, 87, 58);
+  transition: all 0.3s ease 0s;
+}
+.popupContentAdd:hover {
+  background-color: rgb(87, 126, 87);
+}
+
+.popupContentNumber {
+  font-size: 18px;
+  width: 150px;
+  border: 1px solid rgb(138, 138, 138);
+  padding: 9px 5px 9px 10px;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.popupContentFooter {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 15px 6px;
+  align-items: center;
+}
+
+.popupClose {
+  position: absolute;
+  top: -30px;
+  right: -40px;
+  font-size: 20px;
+  color: #fff;
+  padding: 4px 11px;
+  border-radius: 50%;
+  font-weight: 200;
+  background-color: #c2c2c2;
+  transition: all 0.2s ease 0s;
+}
+.popupClose:hover {
+  background-color: #d8d8d8;
+}
